@@ -11,6 +11,10 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
+var textButton = document.querySelector("button");
+textButton.textContent = "Change Theme";
+
+var theme = "light";
 
 function setTheme(theme) {
   let root = document.documentElement;
@@ -27,4 +31,16 @@ function setTheme(theme) {
 
 // 1. Try to change the theme to 'dark'
 // 2. Run the code to see that it works
-setTheme("light");
+
+// 3. Try to change the theme to 'light'
+// 4. Run the code to see that it works
+
+function changeTheme() {
+  if (theme === "light") {
+    theme = "dark";
+    setTheme("dark");
+  } else {
+    theme = "light";
+    setTheme("light");
+  }
+}
