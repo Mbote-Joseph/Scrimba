@@ -11,7 +11,7 @@ favouriteFruit("banana");
 favouriteMode("dark");
 
 // sharp, soft, round
-favouriteEdgeStyle("sharp");
+favouriteEdgeStyle("soft");
 
 ////////////////////////////////////
 // IGONE THE CODE BELOW THIS LINE //
