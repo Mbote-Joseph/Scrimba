@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+  background-color: #ee6e73;
+  color: #f7f7f7;
+  padding: 10px;
+  text-align: center;
+  font-size: large;
+}
+
+input[type="text"] {
+  width: 50%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #f7f7f7;
+  border-radius: 30px;
+  background-color: #f7f7f7;
+
+  height: 40px;
+  font-size: large;
+}
+
+button {
+  width: 10%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+  height: 40px;
+  font-size: large;
+  margin: 10px;
+}
