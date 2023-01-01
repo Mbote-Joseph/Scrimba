@@ -1,7 +1,8 @@
 body {
   font-family: sans-serif;
-  background-color: #ee6e73;
-  color: #f7f7f7;
+  /* background-color: #ee6e73; */
+  background-color: #fff;
+  color: #ee6e73;
   padding: 10px;
   text-align: center;
   font-size: large;
@@ -11,7 +12,7 @@ input[type="text"] {
   width: 50%;
   padding: 10px;
   margin: 10px 0;
-  border: 1px solid #f7f7f7;
+  border: 1px solid #ee6e73;
   border-radius: 30px;
   background-color: #f7f7f7;
 
