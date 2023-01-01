@@ -49,3 +49,25 @@ button {
 img {
   border-radius: 30px;
 }
+
+.flags {
+  height: 460px;
+  width: 400px;
+}
+
+.red {
+  background: red;
+  height: 80px;
+}
+.black {
+  background: black;
+  height: 80px;
+}
+.green {
+  background: green;
+  height: 80px;
+}
+.white {
+  background: white;
+  height: 20px;
+}
