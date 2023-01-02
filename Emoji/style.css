@@ -1,0 +1,42 @@
+.home {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 100px;
+  border: #ee7e63 1px solid;
+  border-radius: 10px;
+  min-height: 700px;
+  width: 500px;
+  text-align: center;
+  background-image: url("./chat.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+}
+#emoji {
+  margin-top: 100px;
+}
+input {
+  width: 400px;
+  height: 30px;
+  margin-top: 20px;
+  border: #ee7e63 1px solid;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #ee7e63;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+button:hover {
+  background-color: #f94f6d;
+}
