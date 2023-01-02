@@ -13,3 +13,42 @@
  See the License for the specific language governing permissions and
  limitations under the License.
 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Score Board</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="scoreboard">
+      <button class="reset" onclick="reset()">New Game</button>
+      <div class="board">
+        <div class="home">
+          <h1 class="title">HOME</h1>
+          <h1 id="scorehome">0</h1>
+
+          <button class="add" onclick="addHome()">+1</button>
+          <button class="add" onclick="addHome2()">+2</button>
+          <button class="add" onclick="addHome3()">+3</button>
+        </div>
+        <div class="guest">
+          <h1 class="title">GUEST</h1>
+          <h1 id="scoreguest">0</h1>
+
+          <button class="add" onclick="addGuest()">+1</button>
+          <button class="add" onclick="addGuest2()">+2</button>
+          <button class="add" onclick="addGuest3()">+3</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
