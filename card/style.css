@@ -15,3 +15,9 @@
   background-position: bottom right;
   background-size: contain;
 }
+a i {
+  color: #ee7e63;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
