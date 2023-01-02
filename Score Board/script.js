@@ -23,25 +23,25 @@ function addGuest() {
 }
 
 function addHome2() {
-  scorehome + 2;
+  scorehome += 2;
   scorehome1.innerHTML = scorehome;
   console.log(scorehome);
 }
 
 function addGuest2() {
-  scoreguest + 2;
+  scoreguest += 2;
   scoreguest1.innerHTML = scoreguest;
   console.log(scoreguest);
 }
 
 function addHome3() {
-  scorehome + 3;
+  scorehome += 3;
   scorehome1.innerHTML = scorehome;
   console.log(scorehome);
 }
 
 function addGuest3() {
-  scoreguest + 3;
+  scoreguest += 3;
   scoreguest1.innerHTML = scoreguest;
   console.log(scoreguest);
 }
