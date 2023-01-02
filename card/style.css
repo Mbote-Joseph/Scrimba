@@ -1,0 +1,17 @@
+.card {
+  margin: 100px;
+  padding: 30px;
+  border: #ee7e63 1px solid;
+  border-radius: 5px;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  background-color: #f8f8f8;
+}
+.details {
+  margin-left: 20px;
+  background-image: url("./image2.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: contain;
+}
